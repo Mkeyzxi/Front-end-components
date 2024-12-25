@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hover Navigation</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gray-100 flex items-center justify-center">
+	<nav class="bg-white shadow-lg rounded-lg">
+		<ul class="flex">
+			<li class="relative group">
+				<a href="#"
+					class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300 rounded-t-lg">
+					About
+				</a>
+				<ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-b-lg w-48">
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300">
+							Home
+						</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300 rounded-b-lg">
+							Contact
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li class="relative group">
+				<a href="#"
+					class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300 rounded-t-lg">
+					Contact
+				</a>
+				<ul class="absolute hidden group-hover:block bg-white shadow-lg rounded-b-lg w-48">
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300">
+							LinkedIn
+						</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300">
+							Instagram
+						</a>
+					</li>
+					<li>
+						<a href="#"
+							class="block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white transition-colors duration-300 rounded-b-lg">
+							Github
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</body>
+
+</html>
